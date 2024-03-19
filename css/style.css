@@ -1,0 +1,129 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;
+}
+
+.logo {
+    font-size: 25px;
+    font-family: "Nunito", sans-serif;
+    color: blue;
+    width: auto;
+    /*padding: 2%; */ 
+    
+}
+
+nav.inline-block {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+nav.inline-block ul {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;  
+}
+nav.inline-block button {
+    padding: 10px 20px; 
+    border: 1px solid blue;
+    border-radius: 3px; 
+    cursor: pointer; 
+    font-size: 20px; 
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    padding: 1%;
+    border: 1px solid blue;
+
+    
+}
+
+nav ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-top: auto;
+
+    text-align: center;
+}
+
+
+.heroImg {
+    font-family: "Nunito", sans-serif;
+    display: grid;
+    place-items: center;
+    height: 600px;
+    padding: 10%;
+}
+img{
+    margin-top: 0%;
+    margin-bottom: -80px;
+    padding: 0px;
+    width: 180px;
+    height: auto;
+    color: blue;
+}
+h1{
+    
+    color: blue;
+    font-size: 100px;
+    text-align: center;
+}
+p{
+    margin-top: -120px;
+    font-size: 35px;
+    text-align: center;
+}
+.content {
+    display: grid;
+    place-items: center;
+    height: 90%;
+    width: auto;
+    margin: 0 auto;
+}
+button{
+        
+        padding: 10px 20px; 
+        border: 1px solid blue;
+        border-radius: 3px; 
+        cursor: pointer; 
+        font-size: 20px; 
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: blue;
+    padding: 10px 0; 
+}
+
+footer ul { 
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+footer.inline-block ul{ 
+    margin: 0;
+    padding: 0;
+}
+
